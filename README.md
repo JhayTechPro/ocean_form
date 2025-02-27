@@ -1,0 +1,1 @@
+Hello, this project is based on the skills i learnt in css using background properties, just decided to try out a form page with it. kindly check it out and let me know what you think about it.

@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url(/img/ocean-image.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.wrapper{
+    background-image: url(/img/ocean-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width: 500px;
+    border-radius: 8px;
+    border: black solid 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.login{
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: 8px;
+    font-family: Poor Richard;
+    text-transform: uppercase;
+    color: wheat;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.6);
+}
+
+form{
+    text-align: center;
+    border-radius: 12px;
+}
+
+input{
+    background-color: transparent;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 34px;
+    font-weight: bold;
+    height: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    color: white;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #4caf50;
+    box-shadow: 0 0 10px rgba(72, 239, 128, 0.6);
+}
+
+.button{
+    height: 30px;
+    width: 270px;
+    color: wheat;
+}
+
+.button:hover{
+    background: rgba(255, 255, 255, 0.9);
+    color: #000;
+    cursor: pointer;
+}
+
+div a{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+div a:focus{
+    color: crimson;
+
+}
